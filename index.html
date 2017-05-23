@@ -14,47 +14,65 @@
 <style>
 	body {
 		padding-top: 50px;
-		background-color: #e2e2e2;
+		background-color: #fffbfb;
 		border-top: 5px solid #5636a2;
 		margin: 0px;
 		font-family: monospace;
 		font-weight: bold;
 	}
-	.starter-template {
-			padding: 40px 15px;
-			text-align: center;
+	li{
+		text-decoration: underline;
+		font-size: 90%;
 	}
 	
 	a {
 		color: #5636a2;
 	}
-	
-	.image {
-		background: rgba(39, 62, 84, 0.82);
-		overflow: hidden;
-		height: 100%;
-		z-index: 2;
-		margin-bottom: 2%;
+	a:hover {
+		color: #3F51B5;
 	}
 	
-	.margin {
+	.image {		
 		margin-bottom: 3%;
+	}
+	@media (min-width: 700px) {
+		.margin{
+			margin-bottom: 2%;			
+		}
+	}	
+	/*@media (max-width: 700px), handheld and (orientation: portrait) { 
+		.margin {
+			margin-bottom: 7%;
+		}
+	}*/
+	@media (max-width: 700px){ 
+		.margin {
+			margin-bottom: 7%;
+		}
+	}
+	@media (min-width: 1440px) {
+		.margin{
+			margin-bottom: 3%;
+			font-size: 130%;
+		}
 	}
 </style>
 
 <body>
 	<div class="container">
-		<div class="starter-template">
-			<img src="img/self.jpg" class="image" alt="">
-			<h5 class="margin">Hello, World!</h5>
-			<h5 class="margin">I am Jayant Parashar..</h5>
-			<h5 class="margin">Currently building interesting stuffs for <a href="https://www.capgemini.com"><strong>CapGemini.</strong></a>.</h5>
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
+			<!--<img src="img/self.jpg" class="image" alt="">-->
+			<a href="#"  title="home"><img src="img/self1.jpg" /></a>
+			<h2 class="margin">&#x2615;</h2>
+			<h5 class="margin"><strong>Jayant Parashar</strong></h5>
+			<h5 class="margin">Creating stuffs at <a href="https://www.capgemini.com"><strong>CapGemini</strong></a>.</h5>
 			<ul class="list-inline margin">
 				<li><a href="https://twitter.com/ActuallyJayant">🐦 Twitter</a></li>
 				<li><a href="https://github.com/jparasha">🐙 GitHub</a></li>
 				<li><a href="https://jparasha.github.io/projects.html">📝 Projects</a></li>
 				<li><a href="/now">&#9679; Now</a></li>
 			</ul>
+			<h6 style="color: grey;">powered by <a href="https://www.github.com">Github</a></h6>
 
 		</div>
 	</div>
@@ -71,7 +89,7 @@
 		console.log('%c ' + after, 'background: #fff; color: #5636a2;');
 		console.log("%c I can be contacted @ jayantparashar@outlook.com", "background: #fff; color: #5636a2");
 
-		(function (i, s, o, g, r, a, m) {
+		/*(function (i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;
 			i[r] = i[r] || function () {
 				(i[r].q = i[r].q || []).push(arguments)
@@ -84,7 +102,7 @@
 		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
 		ga('create', 'UA-99377211-2', 'auto');
-		ga('send', 'pageview');
+		ga('send', 'pageview');*/
 	</script>
 </body>
 
