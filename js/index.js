@@ -7,7 +7,7 @@ console.log('%c Hello there..', 'background: #fff; color: #5636a2');
 		console.log('%c ' + after, 'background: #fff; color: #5636a2;');
 		console.log("%c I can be contacted @ jayantparashar@outlook.com", "background: #fff; color: #5636a2");
 
-		/*(function (i, s, o, g, r, a, m) {
+		(function (i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;
 			i[r] = i[r] || function () {
 				(i[r].q = i[r].q || []).push(arguments)
@@ -20,4 +20,4 @@ console.log('%c Hello there..', 'background: #fff; color: #5636a2');
 		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
 		ga('create', 'UA-99377211-2', 'auto');
-		ga('send', 'pageview');*/
+		ga('send', 'pageview');
