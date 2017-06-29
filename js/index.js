@@ -1,4 +1,4 @@
-console.log('%c Hello there..', 'background: #fff; color: #5636a2');
+		console.log('%c Hello there..', 'background: #fff; color: #5636a2');
 		console.log('%c Appears you are a Geek!', 'background: #222; color: #bada55; font-size: 130%; font-family:monospace;');
 
 		var link = "https://www.github.com/jparasha";
