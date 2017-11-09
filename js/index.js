@@ -2,9 +2,11 @@
 		console.log('%c Appears you are a Geek!', 'background: #222; color: #bada55; font-size: 130%; font-family:monospace;');
 
 		var link = "https://www.github.com/jparasha";
-		var after = "If you like this kind of stuffs, feel free to contribute here " + link + " and send me constructive feedback";
+		var resume = "https://github.com/jparasha/jparasha.github.io/obj/resume.pdf";
+		var after = `If you like this kind of stuffs, feel free to contribute here  ${link}  and send me constructive feedback`;
 
 		console.log('%c ' + after, 'background: #fff; color: #5636a2;');
-		console.log("%c I can be contacted @ jayantparashar@outlook.com", "background: #fff; color: #5636a2");
+		console.log("%c I can be contacted @ jayantparashar[at]outlook.com", "background: #fff; color: #5636a2");
+		console.log('%c '+ `Get my resume ${resume}`, "background: #fff; color: #5636a2");
 
 		
