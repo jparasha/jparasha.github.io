@@ -1,13 +1,21 @@
 :root {
   --font-color: #333;
+  --secondary-font-color: rgba(247, 247, 247, 0.7);
   --background-color: #eee;
-  --link-color: cornflowerblue;
+  --link-color: #272935;
+  --nav-color: var(--background-color);
+  --skills-bg-color: var(--background-color);
+  --project-bg-color: var(--background-color);
 }
 
 [data-theme="dark"] {
   --font-color: #eee;
-  --background-color: #161a1e;
-  --link-color: lightblue;
+  /* --background-color: #161a1e; */
+  --background-color: #13151f;
+  --link-color: #d5663f;
+  --nav-color: #13151f;
+  --skills-bg-color: var(--background-color: #13151f);
+  --project-bg-color: #13151f;
 }
 
 body {

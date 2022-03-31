@@ -6,5 +6,21 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  padding-left: calc(5px + 1% + 2rem);
   /* color: white; */
+}
+
+.App-header .App-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.App-header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style: none;
+  width: 100%;
 }

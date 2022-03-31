@@ -8,7 +8,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: transparent;
+  background-color: var(--nav-color);
   /* Animations */
   transition-timing-function: ease-in;
   transition: all 0.5s;
@@ -30,7 +30,7 @@
 }
 
 .nav__black {
-  background-color: transparent;
+  background-color: var(--nav-color);
 }
 
 .nav-links {

@@ -1,6 +1,6 @@
 export default function Skills(props) {
   return (
-    <div className='App-skills' id='skills'>
+    <div className='App-skills px-1' id='skills'>
       <p>Skills</p>
     </div>
   );
