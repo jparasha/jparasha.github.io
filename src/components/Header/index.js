@@ -2,12 +2,14 @@ export default function Header(props) {
   return (
     <header className='App-header' id='profile'>
       <section className='App-profile px-1 py-1'>
-        <h2>Projects</h2>
-        <p className='sub-text'>fd</p>
+        <h1>Jayant Parashar</h1>
+        <p className='sub-text'>
+          He is a nice guy, really really nice guy, sachi bata rha hu
+        </p>
         <ul>
           <li>
             <a
-              className='flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
+              className='twitter flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
               title='Twitter'
               aria-label='Twitter'
               target='_blank'
@@ -18,55 +20,44 @@ export default function Header(props) {
           </li>
           <li>
             <a
-              className='flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
-              title='Reddit'
-              aria-label='Reddit'
-              target='_blank'
-              href='https://www.reddit.com/user/MrTurnerj'
-              rel='noopener noreferrer'>
-              <span className='fab fa-reddit-alien'></span>
-            </a>
-          </li>
-          <li>
-            <a
-              className='flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
+              className='github flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
               title='GitHub'
               aria-label='GitHub'
               target='_blank'
-              href='https://github.com/Turnerj'
+              href='https://github.com/jparasha'
               rel='noopener noreferrer'>
               <span className='fab fa-github'></span>
             </a>
           </li>
           <li>
             <a
-              className='flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
+              className='linkedin flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
               title='LinkedIn'
               aria-label='LinkedIn'
               target='_blank'
-              href='https://au.linkedin.com/in/jamesturner7'
+              href='https://in.linkedin.com/in/jparasha'
               rel='noopener noreferrer'>
               <span className='fab fa-linkedin'></span>
             </a>
           </li>
           <li>
             <a
-              className='flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
+              className='stackoverflow flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
               title='Stack Overflow'
               aria-label='Stack Overflow'
               target='_blank'
-              href='https://stackoverflow.com/users/1676444/turnerj'
+              href='https://stackoverflow.com/users/6265883/j-parashar'
               rel='noopener noreferrer'>
               <span className='fab fa-stack-overflow'></span>
             </a>
           </li>
           <li>
             <a
-              className='flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
+              className='outlook flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
               title='Email'
               aria-label='Email'
-              href='mailto:james@turnerj.com'>
-              <span className='fa-brands fa-rocketchat'></span>
+              href='mailto:jayantparashar03@outlook.com'>
+              <span className='fa-brands fa-internet-explorer'></span>
             </a>
           </li>
         </ul>

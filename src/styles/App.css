@@ -3,7 +3,7 @@
 @import "./header.css";
 @import "./skills.css";
 @import "./projects.css";
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"); */
 
 .App {
   text-align: center;
@@ -49,6 +49,7 @@ a:hover {
 .sub-text {
   max-width: 50%;
   text-align: justify;
+  color: var(--secondary-font-color);
 }
 
 .mx-1 {
@@ -73,6 +74,8 @@ a:hover {
 
 h1 {
   font-size: 5rem;
+  margin-bottom: 0;
+  text-align: left;
 }
 
 h2 {

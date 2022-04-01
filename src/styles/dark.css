@@ -1,6 +1,8 @@
 :root {
+  scrollbar-color: #d5663f rgb(46, 54, 69) !important;
+  scrollbar-width: thin !important;
   --font-color: #333;
-  --secondary-font-color: rgba(247, 247, 247, 0.7);
+  --secondary-font-color: #333333eb;
   --background-color: #eee;
   --link-color: #272935;
   --nav-color: var(--background-color);
@@ -10,6 +12,7 @@
 
 [data-theme="dark"] {
   --font-color: #eee;
+  --secondary-font-color: rgba(247, 247, 247, 0.7);
   /* --background-color: #161a1e; */
   --background-color: #13151f;
   --link-color: #d5663f;
@@ -39,14 +42,14 @@ a {
 
 .toggle-theme-wrapper span {
   /* font-size: 28px; */
-  margin: 0 4px;
+  margin: 0 2px;
 }
 
 .toggle-theme {
   position: relative;
   display: inline-block;
-  height: 34px;
-  width: 60px;
+  height: 25px;
+  width: 45px;
 }
 
 .toggle-theme input {
@@ -64,15 +67,19 @@ a {
   transition: 0.2s;
 }
 
+[data-theme="light"] .slider:before {
+  left: 4px;
+}
+
 .slider:before {
   background-color: #fff;
   bottom: 4px;
   content: "";
-  height: 26px;
-  left: 4px;
+  height: 18px;
+  left: -4px;
   position: absolute;
   transition: 0.4s;
-  width: 26px;
+  width: 18px;
 }
 
 input:checked + .slider:before {
@@ -92,7 +99,7 @@ input:checked + .slider {
 
 .day-night-icon {
   position: absolute;
-  top: 6px;
+  top: 2px;
   z-index: 1;
 }
 

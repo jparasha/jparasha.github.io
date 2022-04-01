@@ -1,11 +1,30 @@
 .App-skills {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
   min-height: 100vh;
   background-color: var(--skills-bg-color);
   font-size: calc(10px + 2vmin);
-  border-top: 1px solid saddlebrown;
+  /* border-top: 1px solid saddlebrown; */
+}
+
+.App-skills .chart-parent {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.App-skills .chart-parent .chart-container {
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .App-skills .chart-parent .chart-container {
+    flex-basis: 100%;
+  }
 }

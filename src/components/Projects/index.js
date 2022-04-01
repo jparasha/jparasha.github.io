@@ -1,10 +1,17 @@
+import TeamWork1 from "../../images/teamwork-1.webp";
+import TeamWork2 from "../../images/teamwork-2.webp";
+import TeamWork3 from "../../images/teamwork-3.webp";
+import TeamWork4 from "../../images/teamwork-4.webp";
+import TeamWork5 from "../../images/teamwork-5.webp";
+
 export default function Projects(props) {
   const images = [
-    "https://cdn.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_1280.jpg",
-    "https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg",
-    "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg",
-    "https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg",
-    "https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_1280.jpg",
+    TeamWork1,
+    TeamWork2,
+    TeamWork3,
+    TeamWork4,
+    TeamWork5,
+    TeamWork1,
   ];
 
   return (
@@ -18,23 +25,24 @@ export default function Projects(props) {
       </p>
       <h3 className='info-text'>Check Out Projects &#8594;</h3>
       <div className='card-row'>
-        {[1, 2, 3, 4, 5, 6].map((data) => (
-          <a href='#' key={data}>
-            <div class='card'>
+        {images.map((data, idx) => (
+          <a href='#' key={idx}>
+            <div className='card'>
               <img
-                class='card-cover-image'
-                src={images[Math.floor(Math.random() * images.length)]}
+                className='card-cover-image'
+                // teamwork-1
+                src={data}
                 alt=''
               />
-              <h3 class='card-heading'>
+              <h3 className='card-heading'>
                 It is a long established fact that a reader will be distracted.
               </h3>
-              <p class='card-details'>
+              <p className='card-details'>
                 The point of using Lorem Ipsum is that it has a more-or-less
                 normal distribution of letters, as opposed to using 'Content
                 here, content here', making it look like readable English.
               </p>
-              <span class='read-more'>Read more &#8594;</span>
+              <span className='read-more'>Read more &#8594;</span>
             </div>
           </a>
         ))}
