@@ -38,6 +38,10 @@
   color: var(--link-color);
 }
 
+.d-none {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }

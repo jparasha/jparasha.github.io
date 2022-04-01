@@ -7,7 +7,7 @@ import Projects from "./Projects";
 function App() {
   return (
     <div className='App'>
-      <Navbar />
+      <Navbar switchDisabled />
       <Header />
       <Skills />
       <Projects />

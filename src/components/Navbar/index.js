@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import DarkMode from "../DarkMode";
 
-const Nav = () => {
+const Nav = (props) => {
   const [show, handleShow] = useState(false);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
-      <DarkMode />
+      {!props.switchDisabled && <DarkMode />}
     </div>
   );
 };
