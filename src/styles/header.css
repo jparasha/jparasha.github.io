@@ -1,6 +1,6 @@
 .App-header {
   background-color: var(--background-color);
-  background-image: url("../images/self__half.webp");
+  background-image: url("../images/self_half.webp");
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
@@ -11,6 +11,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   padding-left: calc(5px + 1% + 2rem);
+  background-blend-mode: screen;
   /* color: white; */
 }
 
