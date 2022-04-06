@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 768px) {
   .App-header {
-    padding-left: 0;
+    padding: 10px;
     min-height: 90vh;
     background-image: none;
   }

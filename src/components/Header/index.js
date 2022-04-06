@@ -4,20 +4,12 @@ export default function Header(props) {
       <section className='App-profile px-1 py-1'>
         <h1>Jayant Parashar</h1>
         <p className='sub-text'>
-          He is a nice guy, really really nice guy, sachi bata rha hu
+          (aka <strong className='g-text'>jparasha</strong>) Hey There, I'm a
+          FrontEnd Developer from <strong className='flag'>India</strong>
+          <br />I love to create web apps that would make life easy, accessible
+          and enjoyable for people.
         </p>
         <ul>
-          <li>
-            <a
-              className='twitter flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
-              title='Twitter'
-              aria-label='Twitter'
-              target='_blank'
-              href='https://twitter.com/ActuallyJayant'
-              rel='noopener noreferrer'>
-              <span className='fab fa-twitter'></span>
-            </a>
-          </li>
           <li>
             <a
               className='github flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
@@ -38,6 +30,17 @@ export default function Header(props) {
               href='https://in.linkedin.com/in/jparasha'
               rel='noopener noreferrer'>
               <span className='fab fa-linkedin'></span>
+            </a>
+          </li>
+          <li>
+            <a
+              className='twitter flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'
+              title='Twitter'
+              aria-label='Twitter'
+              target='_blank'
+              href='https://twitter.com/ActuallyJayant'
+              rel='noopener noreferrer'>
+              <span className='fab fa-twitter'></span>
             </a>
           </li>
           <li>

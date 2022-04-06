@@ -5,10 +5,8 @@ export default function Skills(props) {
     <div className='App-skills px-1' id='skills'>
       <h2>Skills</h2>
       <p className='sub-text'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
+        Find below the skills, tools and technologies I use to bring products to
+        life :
       </p>
       <h3 className='info-text'>Check Out Skills &#8594;</h3>
       <div className='chart-parent'>
