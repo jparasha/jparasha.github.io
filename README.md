@@ -1,2 +1,0 @@
-# Jayant Parashar
-
