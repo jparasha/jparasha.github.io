@@ -1,6 +1,8 @@
 import { lazy } from "react";
 import RenderComponent from "../../utils";
-const LazyProjects = lazy(() => import("./Projects"));
+const LazyProjects = lazy(() =>
+  import(/* webpackChunkName: "Projects" */ "./Projects")
+);
 
 export default function Projects() {
   return (
