@@ -1,34 +1,10 @@
-import React, { useEffect, useState } from "react";
-import DarkMode from "../DarkMode";
-// import Brand from "../../images/jp.png";
+import { lazy } from "react";
+import RenderComponent from "../../utils";
+const LazyNavbar = lazy(() => import("./Navbar"));
 
-const Nav = (props) => {
-  const [show, handleShow] = useState(false);
-
-  useEffect(() => {
-    const handleScrollEvent = () => handleShow(window.scrollY > 100);
-    window.addEventListener("scroll", handleScrollEvent);
-    return () => window.removeEventListener("scroll", handleScrollEvent);
-  }, []);
-
+export default function Navbar(props) {
   return (
-    <div className={`nav ${show && "nav__black"}`}>
-      <nav className='nav-links'>
-        <ul>
-          <li>
-            <a href='#profile'>Profile</a>
-          </li>
-          <li>
-            <a href='#skills'>Skills</a>
-          </li>
-          <li>
-            <a href='#projects'>Projects</a>
-          </li>
-        </ul>
-      </nav>
-      {!props.switchDisabled && <DarkMode />}
-    </div>
+    // Displays <Spinner> until OtherComponent loads
+    <RenderComponent Component={LazyNavbar} {...props} />
   );
-};
-
-export default Nav;
+}
