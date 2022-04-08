@@ -4,7 +4,7 @@
 @import "./skills.css";
 @import "./projects.css";
 @import "./chips.css";
-/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css");
 .App {
   text-align: center;
   display: flex;
