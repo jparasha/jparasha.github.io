@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import DarkMode from "../DarkMode";
-import Brand from "../../images/jp.png";
+// import Brand from "../../images/jp.png";
 
 const Nav = (props) => {
   const [show, handleShow] = useState(false);
@@ -13,7 +13,6 @@ const Nav = (props) => {
 
   return (
     <div className={`nav ${show && "nav__black"}`}>
-      <img className='nav__logo' src={Brand} alt='jparasha' />
       <nav className='nav-links'>
         <ul>
           <li>
