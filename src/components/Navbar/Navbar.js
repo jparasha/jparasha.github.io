@@ -13,6 +13,9 @@ const Nav = (props) => {
 
   return (
     <div className={`nav ${show && "nav__black"}`}>
+      <strong className='nav__logo'>
+        <span>J</span>p
+      </strong>
       <nav className='nav-links'>
         <ul>
           <li>

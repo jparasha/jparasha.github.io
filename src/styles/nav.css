@@ -14,7 +14,11 @@
   transition: all 0.5s;
 }
 
+.nav__logo span {
+  color: var(--link-color);
+}
 .nav__logo {
+  display: none;
   position: fixed;
   left: 20px;
   width: 40px;
@@ -53,6 +57,9 @@
     max-width: 100%;
     height: 25px;
     padding: 10px;
+  }
+  .nav__logo {
+    display: block;
   }
   .nav-links {
     flex-basis: 75%;
