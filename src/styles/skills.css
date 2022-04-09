@@ -32,7 +32,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .App-skills {
+    min-height: auto;
+  }
+  .App-skills .chart-parent {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 1rem;
+    margin-left: -1rem;
+    gap: 1rem;
+  }
   .App-skills .chart-parent .chart-container {
-    flex-basis: 100%;
+    margin-bottom: 2rem;
+    min-width: 75%;
+    padding: 4rem 1rem;
+    background-color: var(--secondary-bg-color);
+    border-radius: 32px;
   }
 }

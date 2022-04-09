@@ -1,9 +1,10 @@
 import Chips from "../Chips";
-import TeamWork1 from "../../images/teamwork-1.webp";
-import TeamWork2 from "../../images/teamwork-2.webp";
-import TeamWork3 from "../../images/teamwork-3.webp";
-import TeamWork4 from "../../images/teamwork-4.webp";
-import TeamWork5 from "../../images/teamwork-5.webp";
+import TeamWork1 from "../../images/vaccine.svg";
+import TeamWork2 from "../../images/next.svg";
+import TeamWork3 from "../../images/cuate.svg";
+import TeamWork6 from "../../images/pana.svg";
+import TeamWork4 from "../../images/netflix.svg";
+import TeamWork5 from "../../images/weather.svg";
 
 export default function Projects(props) {
   const images = [
@@ -17,7 +18,7 @@ export default function Projects(props) {
         "A web application that helps you find and book covid-19 vaccines in India for allowed age-groups.",
     },
     {
-      icon: TeamWork4,
+      icon: TeamWork2,
       title: "Next.js Enzyme Boilerplate",
       link: "https://github.com/jparasha/next-scss-enzyme-boilerplate",
       github: "https://github.com/jparasha/next-scss-enzyme-boilerplate",
@@ -30,12 +31,12 @@ export default function Projects(props) {
       title: "SpaceX Launch Tracker",
       link: "https://spacex-missions.vercel.app/",
       github: "https://github.com/jparasha/spacex-launches",
-      tech: ["React", "Next.js", "RWA"],
+      tech: ["React", "Next.js", "RWD"],
       description:
         "A Responsive web application that tracks SpaceX launches. User can filter results by launch year, success, or date.",
     },
     {
-      icon: TeamWork2,
+      icon: TeamWork4,
       title: "Netflix Clone",
       link: "https://jparasha.github.io/yet-another-netflix-clone/",
       github: "https://github.com/jparasha/yet-another-netflix-clone",
@@ -53,7 +54,7 @@ export default function Projects(props) {
         "Simple Weather application that shows the weather of a city. User can search for a city and get the weather information.",
     },
     {
-      icon: TeamWork1,
+      icon: TeamWork6,
       inProgress: true,
       title: "Courier Tracker",
       link: "",
@@ -98,14 +99,8 @@ export default function Projects(props) {
                   loading='lazy'
                 />
                 <Chips chipsData={tech} />
-                <h3 className='card-heading g-text'>
-                  {title ||
-                    " It is a long established fact that a reader will be distracted."}
-                </h3>
-                <p className='card-details'>
-                  {description ||
-                    "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."}
-                </p>
+                <h3 className='card-heading g-text'>{title || ""}</h3>
+                <p className='card-details'>{description || ""}</p>
                 <button
                   className='read-more'
                   disabled={inProgress}

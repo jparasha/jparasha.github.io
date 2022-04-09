@@ -60,8 +60,9 @@ export default function Skills(props) {
     <div className='App-skills px-1 py-1' id='skills'>
       <h2>Skills</h2>
       <p className='sub-text'>
-        Find below the skills, tools and technologies I use, to bring products
-        to life :
+        Primarily, I like developing ReactJS Apps and enjoy tuning performances
+        for web-apps in general. Find below the skills, tools and technologies I
+        use, to bring products to life:
       </p>
       <h3 className='info-text'>Check Out Skills &#8594;</h3>
       <div className='chart-parent'>

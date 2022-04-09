@@ -20,7 +20,7 @@
   --nav-color: #13151f;
   --skills-bg-color: var(--background-color: #13151f);
   --project-bg-color: #13151f;
-  --chip-color: #3fcae1;
+  --chip-color: var(--font-color);
 }
 
 body {

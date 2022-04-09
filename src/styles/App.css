@@ -115,16 +115,30 @@ h2 {
   border-radius: 32px;
   background-color: var(--secondary-bg-color);
   color: white;
-  min-height: 425px;
+  height: 445px;
+}
+
+.chip:hover {
+  background: var(--chip-color);
+  color: var(--background-color);
 }
 
 .card img {
   width: 100%;
   border-radius: 32px;
   max-height: 200px;
-  filter: brightness(84%) saturate(132%) contrast(103%);
+  /* filter: brightness(84%) saturate(132%) contrast(103%);
   -webkit-filter: brightness(84%) saturate(132%) contrast(103%);
-  -moz-filter: brightness(84%) saturate(132%) contrast(103%);
+  -moz-filter: brightness(84%) saturate(132%) contrast(103%); */
+  /* background-image: linear-gradient(
+    to bottom,
+    #13151f,
+    #292932,
+    #404045,
+    #57575a,
+    #707070
+  ); */
+  background-color: #13151f;
 }
 
 .card a {
@@ -148,6 +162,9 @@ h2 {
 .card .read-more {
   font-size: 1rem;
   line-height: 1.6;
+}
+.card .read-more {
+  margin-top: auto;
 }
 
 .card button .km-text:hover {
@@ -203,6 +220,7 @@ h2 {
   .sub-text {
     max-width: 100%;
     text-align: left;
+    line-height: 1.6;
   }
   .card-row {
     flex-flow: row nowrap;
@@ -213,6 +231,7 @@ h2 {
   .card {
     margin: 0 1rem 0 0;
     max-width: 60vw;
+    height: 470px;
   }
 }
 
