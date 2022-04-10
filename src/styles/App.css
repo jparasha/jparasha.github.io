@@ -172,7 +172,7 @@ h2 {
 }
 .card button {
   font-weight: 800;
-  font-family: "Josefin Sans", "sans-serif";
+  font-family: "Quicksand", "Josefin Sans", "sans-serif";
   color: #fff;
   cursor: pointer;
   background: var(--link-color);
@@ -184,6 +184,7 @@ h2 {
 .card button:disabled {
   background: #ccc;
   color: #fff;
+  cursor: not-allowed;
 }
 
 .g-text:hover {
