@@ -1,15 +1,15 @@
 export default function Header(props) {
   return (
     <header className='App-header' id='profile'>
-      <section className='App-profile px-1 py-1'>
+      <section className='App-profile px-1 py-1 animate-banner'>
         <h1>Jayant Parashar</h1>
-        <p className='sub-text'>
+        <p className='sub-text animate-start'>
           (aka <strong className='g-text'>jparasha</strong>) Hey There, I'm a
           FrontEnd Developer from <strong className='flag'>India</strong>
           <br />I love to create web apps that would make life easy, accessible
           and enjoyable for people.
         </p>
-        <ul>
+        <ul className="animate-start">
           <li>
             <a
               className='github flex pa2 f2 theme-dark-grey hover-text-gradient no-underline'

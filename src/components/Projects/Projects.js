@@ -73,8 +73,8 @@ export default function Projects(props) {
 
   return (
     <section className='App-projects px-1 py-1' id='projects'>
-      <h2>Projects</h2>
-      <p className='sub-text'>
+      <h2 className="animate-banner">Projects</h2>
+      <p className='sub-text animate-start'>
         Here is a showcase of some of my best projects that I made. They can be
         found on my <strong className='g-text'>GitHub</strong> !
       </p>

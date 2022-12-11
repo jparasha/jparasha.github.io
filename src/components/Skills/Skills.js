@@ -58,8 +58,8 @@ export default function Skills(props) {
 
   return (
     <div className='App-skills px-1 py-1' id='skills'>
-      <h2>Skills</h2>
-      <p className='sub-text'>
+      <h2 className="animate-banner">Skills</h2>
+      <p className='sub-text animate-start'>
         Primarily, I like developing ReactJS Apps and enjoy tuning performances
         for web-apps in general. Find below the skills, tools and technologies I
         use, to bring products to life:
