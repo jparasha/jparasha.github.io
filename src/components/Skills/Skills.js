@@ -23,7 +23,7 @@ export default function Skills(props) {
       colors: ["#7046b5", "#FFC371"],
     },
     {
-      title: "NodeJS",
+      title: "VueJS",
       value: 0.7,
       colors: ["#70a761", "#FFC371"],
     },
