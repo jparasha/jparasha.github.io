@@ -4,7 +4,7 @@
       "title": "Visit Vaccine Guru",
       "url": "https://vaccine-guru.vercel.app/",
       "github": "https://github.com/jparasha/vaccine-guru",
-      "img": "/static/media/vaccine.094dd85bb48e0104a2bccf1df5fbeb15.svg",
+      "img": "vaccine.svg",
       "tech": [
         "React",
         "PWA",
@@ -17,7 +17,7 @@
       "title": "Visit Next.js Enzyme Boilerplate",
       "url": "https://github.com/jparasha/next-scss-enzyme-boilerplate",
       "github": "https://github.com/jparasha/next-scss-enzyme-boilerplate",
-      "img": "/static/media/next.8642c3d72af9c06df456391aa2cfe9b9.svg",
+      "img": "next.svg",
       "tech": [
         "Next.js",
         "SCSS",
@@ -31,7 +31,7 @@
       "title": "Visit SpaceX Launch Tracker",
       "url": "https://spacex-missions.vercel.app/",
       "github": "https://github.com/jparasha/spacex-launches",
-      "img": "/static/media/cuate.1b0b750b68bc7a31cba5f8f6ca972e78.svg",
+      "img": "cuate.svg",
       "tech": [
         "React",
         "Next.js",
@@ -44,7 +44,7 @@
       "title": "Visit Netflix Clone",
       "url": "https://jparasha.github.io/yet-another-netflix-clone/",
       "github": "https://github.com/jparasha/yet-another-netflix-clone",
-      "img": "/static/media/netflix.9ed4fe991ad4e749d65fb3451d9196d5.svg",
+      "img": "pana.svg",
       "tech": [
         "React",
         "SCSS",
@@ -57,7 +57,7 @@
       "title": "Visit Weather Info",
       "url": "https://jparasha.github.io/weatherinfo/",
       "github": "https://github.com/jparasha/weatherinfo",
-      "img": "/static/media/weather.01b3590227767d587538401a4f0a8941.svg",
+      "img": "netflix.svg",
       "tech": [
         "React",
         "Redux",
@@ -71,7 +71,7 @@
       "title": "Courier Tracker is under development",
       "url": "",
       "github": "https://github.com/jparasha/courier-dev",
-      "img": "/static/media/pana.d40cebd2e4cfdea03d75d97143e222ce.svg",
+      "img": "weather.svg",
       "tech": [
         "React",
         "Redux",
