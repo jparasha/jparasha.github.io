@@ -10,7 +10,7 @@ import Chips from "../Chips";
 export default function Projects() {
 
   const [projectsData, setProjectsData] = useState([]);
-  
+
   useEffect(()=>{
     fetch('/files/profile.json')
     .then(data=>data.json())
@@ -39,7 +39,7 @@ export default function Projects() {
       <div className='card-row'>
         {projectsData?.map(
           (
-            { img, title, name, url, description, github, inProgress, tech },
+            { img='cuate.svg', title, name, url, description, github, inProgress, tech },
             idx
           ) => (
             <a
@@ -49,7 +49,7 @@ export default function Projects() {
               <div className='card'>
                 <img
                   className='card-cover-image'
-                  src={img}
+                  src={"/images/"+img}
                   alt=''
                   loading='lazy'
                 />
