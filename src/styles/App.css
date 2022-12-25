@@ -97,7 +97,8 @@ h2 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 4%;
 }
 
 .card-row a {
