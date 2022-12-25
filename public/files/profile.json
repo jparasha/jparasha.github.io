@@ -1,5 +1,19 @@
 [
     {
+      "name": "Know Pokemon",
+      "title": "Know Pokemon",
+      "url": "https://know-pokemon.vercel.app/",
+      "github": "https://github.com/jparasha/pokemon-app",
+      "img": "programming.svg",
+      "tech": [
+        "React",
+        "Jest",
+        "testing-library",
+        "RestAPI"
+      ],
+      "description": "A web application that helps you search and know about any pokemon e.g. Pikachu, butterfree & many more. "
+    },
+    {
       "name": "Vaccine Guru",
       "title": "Visit Vaccine Guru",
       "url": "https://vaccine-guru.vercel.app/",
